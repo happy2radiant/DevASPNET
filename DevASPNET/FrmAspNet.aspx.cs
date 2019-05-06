@@ -13,5 +13,10 @@ namespace DevASPNET
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write("Hi 방가방가<br>");
+        }
     }
 }
